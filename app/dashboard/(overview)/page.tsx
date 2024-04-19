@@ -6,11 +6,11 @@ import { lusitana } from "../../ui/fonts";
 import RevenueChart from "@/app/ui/dashboard/revenue-chart";
 import { Suspense } from "react";
 
-export default async function Page() {
+export default async function Dashboard() {
 
   return (
     <main>
-      <h1 className={`${lusitana.className} mb-4 text-xl md:2x1`}> 
+      <h1 className={`${lusitana.className} mb-4 text-xl md:text-2xl`}> 
         Dashboard
       </h1>
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
