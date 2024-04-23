@@ -1,10 +1,14 @@
 import { CardsSkeleton, LatestInvoicesSkeleton, RevenueChartSkeleton } from "@/app/ui/skeletons";
-import { fetchCardData } from "../../lib/data";
 import CardWrapper, { Card } from "../../ui/dashboard/cards";
 import LatestInvoices from "../../ui/dashboard/latest-invoices";
 import { lusitana } from "../../ui/fonts";
 import RevenueChart from "@/app/ui/dashboard/revenue-chart";
 import { Suspense } from "react";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: 'Dashboard',
+};
 
 export default async function Dashboard() {
 
